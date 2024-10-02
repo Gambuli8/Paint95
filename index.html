@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <title>Paint 95</title>
+</head>
+<body>
+ <h1> <img src="icons/icon.png" alt="paint.js" width="40" height="40"> Paint Clone </h1>
+
+ <div class="container">
+
+  <header>
+   <button id="file" class="control">File</button>
+   <button id="edit" class="control">Edit</button>
+   <button id="view" class="control">View</button>
+   <button id="image" class="control">Image</button>
+   <button id="options" class="control">Options</button>
+   <button id="help" class="control">Help</button>
+  </header>
+
+  <div class="window">
+  <aside>
+   <nav>
+    <button id="star-btn" title="Favorito"></button>
+    <button id="draw-btn" title="Pincel"></button>
+    <button id="erase-btn" title="Borrar"></button>
+    <button id="fill-btn" title="Rellenar"></button>
+    <button id="rectangle-btn" title="Rectangulo"></button>
+    <button id="ellipse-btn" title="Elipse"></button>
+    <button id="picker-btn" title="Selector"></button>
+    <button id="clear-btn" title="Eliminar"></button>
+   </nav>
+  </aside>
+
+  <main>
+   <canvas id="canvas" width="400" height="300"></canvas>
+  </main>
+  </div>
+  
+  <footer>
+   <input type="color" name="" id="color-picker" value="#000000">
+  </footer>
+ </div>
+ 
+ <script type="module" src="index.js"></script>
+</body>
+</html>
